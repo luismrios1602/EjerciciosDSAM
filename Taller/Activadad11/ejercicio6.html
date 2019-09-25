@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    ol { counter-reset: item; padding-top: 7px; padding-right: 5px;}
+    #primera { padding-left: 5px }
+    li { display: block; padding-bottom: 7px}
+    li:before { content: counters(item, ".") " "; counter-increment: item }
+    nav { background-color: rgba(233, 241, 247, 0.712); border: 1px rgb(61, 134, 168) solid; }
+    body {font-family: Arial, Helvetica, sans-serif}
+    a {text-decoration: unset; }
+    div { float: left; }
+</style>
+</head>
+<body>
+    <div>
+    <nav>
+        <ol id="primera">
+            <li><a href="#">General reference</a></li>
+            <li><a href="#">Culture and the arts</a>
+                <ol>
+                    <li><a href="#">Literature</a></li>
+                    <li><a href="#">Mythology</a></li>
+                    <li><a href="#">Art and the arts</a>
+                        <ol>
+                            <li><a href="#">Performing arts</a></li>
+                            <li><a href="#">Visual arts</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="#">Entertainment and recreation</a>
+                        <ol>
+                            <li><a href="#">Games</a></li>
+                            <li><a href="#">Sports</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="#">Food and drink</a></li>
+                    <li><a href="#">Mass Media</a></li>
+                </ol>
+            </li>
+            <li><a href="#">Geography and places</a>
+                <ol>
+                    <li><a href="#">Natural geographical features</a>
+                        <ol>
+                            <li><a href="#">Landforms</a></li>
+                            <li><a href="#">Bodies of water</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="#">Manmade geographical features</a>
+                        <ol>
+                            <li><a href="#">Countries and regions</a></li>
+                            <li><a href="#">Places</a></li>
+                            <li><a href="#">Settlements</a></li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+            <li><a href="#">History and events</a></li>
+            <li><a href="#">Mathematics and logic</a></li>
+            <li><a href="#">Natural and physical sciences</a>
+                <ol>
+                    <li><a href="#">Biology</a></li>
+                    <li><a href="#">Physical sciences</a></li>
+                </ol>
+            </li>
+            <li><a href="#">People</a></li>
+            <li><a href="#">Religion and belief systems</a></li>
+            <li><a href="#">Society and social sciences</a>
+                <ol>
+                    <li><a href="#">Archaelogy</a></li>
+                    <li><a href="#">Linguistics</a></li>
+                    <li><a href="#">Social institutions</a>
+                        <ol>
+                            <li><a href="#">Infrastructure</a></li>
+                            <li><a href="#">Economy and business</a></li>
+                            <li><a href="#">Education</a></li>
+                            <li><a href="#">Govemment and politics</a></li>
+                            <li><a href="#">Law</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="#">War</a></li>
+                </ol>
+            </li>
+            <li><a href="#">Technology and applied sciences</a>
+                <ol>
+                    <li><a href="#">Aerospace</a></li>
+                    <li><a href="#">Buildings</a></li>
+                    <li><a href="#">Energy</a></li>
+                    <li><a href="#">Medicine</a></li>
+                    <li><a href="#">Maritime</a></li>
+                    <li><a href="#">Military</a></li>
+                    <li><a href="#">Technology</a></li>
+                </ol>
+            </li>
+            <li><a href="#">Miscellaneous</a></li>
+        </ol>
+    </nav>
+</div>
+</body>
+</html>
