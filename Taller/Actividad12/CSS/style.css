@@ -1,0 +1,75 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(153, 50, 50);
+    background: linear-gradient(to bottom, rgb(250, 4, 4), white);
+}
+
+.Div-Generos{
+    /* border: 1px black solid; */
+    float: left; 
+    padding: 2%;
+    /* margin-left: 25%; */
+}
+
+.Div-Genero, #Div-Peliculas, #Div-Series, #Div-Estrenos {
+    border: 1px black solid;
+    float: left; 
+    margin: 5px;
+}
+
+#Div-Series {
+    margin-left: 5%;
+}
+
+#Div-Peliculas {
+    padding: 3%;
+}
+
+#Div-Estrenos {
+    margin-left: 2%;
+    padding-left: 5%;
+}
+
+.img-Caratulas{
+    width: 150px;
+    height: 200px;
+    margin-left: 3%;
+    border: 5px black solid;
+}
+
+h1{
+    text-align: center;
+}
+
+.Div-Caratula {
+    border: 2px black dotted;
+    margin: 5px;
+    padding: 5px;
+    float: left;
+    height: 470px;
+}
+
+a {
+    display: inline;
+    background-color: rgb(18, 114, 240);
+    font-weight: bold;
+    padding: 10px;
+    border: 2px black solid;
+    border-radius: 5px;
+    color: white;
+    margin: 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(94, 145, 240)
+}
+
+.Div-BarraNavegacion {
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+#img-Caratula-It {
+    margin-left: 10%;
+}
