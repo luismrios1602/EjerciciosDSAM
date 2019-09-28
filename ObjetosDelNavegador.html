@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
+    <title>Quiz</title>
+    <style>
+        tr, table, td, th {
+            border: 2px black solid;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        //creamos la Tabla
+        tabla = document.createElement("table");
+
+        //Enlazamos la tabla al body 
+        document.body.appendChild(tabla);
+
+        //Instanciamos una fila 
+        fila1 = document.createElement("tr");
+
+        //Enlazamos la tabla con la fila 1
+        tabla.appendChild(fila1);
+
+        //Instanciamos los encabezados
+        celda1A = document.createElement("th");
+        celda1B = document.createElement("th");
+        celda1c = document.createElement("th");
+        celda1D = document.createElement("th");
+
+        //Instanciamos el texto de cada encabezado
+        text1A = document.createTextNode("Nombre");
+        text1B = document.createTextNode("Direccion");
+        text1c = document.createTextNode("Telefono");
+        text1D= document.createTextNode("Correo");
+
+        //Enlazamos los textos con los encabezados
+        celda1A.appendChild(text1A);
+        celda1B.appendChild(text1B);
+        celda1c.appendChild(text1c);
+        celda1D.appendChild(text1D);
+
+        //Enlazamos la fila 1 con los encabezados
+        fila1.appendChild(celda1A);
+        fila1.appendChild(celda1B);
+        fila1.appendChild(celda1c);
+        fila1.appendChild(celda1D);
+
+//--------------------------------------------------------------------------------------------------------
+        //Instanciamos una fila 
+        fila2 = document.createElement("tr");
+
+        //Enlazamos la tabla con la fila 2
+        tabla.appendChild(fila2);
+        
+        //Instanciamos las celdas
+        celda2A = document.createElement("td");
+        celda2B = document.createElement("td");
+        celda2C = document.createElement("td");
+        celda2D = document.createElement("td");
+
+        //Enlazamos la fila 2 con las celdas
+        fila2.appendChild(celda2A);
+        fila2.appendChild(celda2B);
+        fila2.appendChild(celda2C);
+        fila2.appendChild(celda2D);
+
+        //Instanciamos el texto de cada celda
+        text2A = document.createTextNode("Luis");
+        text2B = document.createTextNode("cll 35");
+        text2C = document.createTextNode("304");
+        text2D= document.createTextNode("luis@gmail.com");
+
+        //Enlazamos los textos con las celdas
+        celda2A.appendChild(text2A);
+        celda2B.appendChild(text2B);
+        celda2C.appendChild(text2C);
+        celda2D.appendChild(text2D);
+
+//--------------------------------------------------------------------------------------------------------
+        //Instanciamos una fila 
+        fila3 = document.createElement("tr");
+
+        //Enlazamos la tabla con la fila 3
+        tabla.appendChild(fila3);
+        
+        //Instanciamos las celdas
+        celda3A = document.createElement("td");
+        celda3B = document.createElement("td");
+        celda3C = document.createElement("td");
+        celda3D = document.createElement("td");
+
+        //Enlazamos la fila 3 con las celdas
+        fila3.appendChild(celda3A);
+        fila3.appendChild(celda3B);
+        fila3.appendChild(celda3C);
+        fila3.appendChild(celda3D);
+
+        //Instanciamos el texto de cada celda
+        text3A = document.createTextNode("Pedro");
+        text3B = document.createTextNode("La Paz");
+        text3C = document.createTextNode("300");
+        text3D= document.createTextNode("berna@gmail.com");
+
+        //Enlazamos los textos con las celdas
+        celda3A.appendChild(text3A);
+        celda3B.appendChild(text3B);
+        celda3C.appendChild(text3C);
+        celda3D.appendChild(text3D);
+
+//--------------------------------------------------------------------------------------------------------
+       //Instanciamos una fila 
+        fila4 = document.createElement("tr");
+
+        //Enlazamos la tabla con la fila 4
+        tabla.appendChild(fila4);
+        
+        //Instanciamos las celdas
+        celda4A = document.createElement("td");
+        celda4B = document.createElement("td");
+        celda4C = document.createElement("td");
+        celda4D = document.createElement("td");
+
+        //Enlazamos la fila 4 con las celdas
+        fila4.appendChild(celda4A);
+        fila4.appendChild(celda4B);
+        fila4.appendChild(celda4C);
+        fila4.appendChild(celda4D);
+
+        //Instanciamos el texto de cada celda
+        text4A = document.createTextNode("David");
+        text4B = document.createTextNode("Cll 31");
+        text4C = document.createTextNode("312");
+        text4D= document.createTextNode("izquierdo@gmail.com");
+
+        //Enlazamos los textos con las celdas
+        celda4A.appendChild(text4A);
+        celda4B.appendChild(text4B);
+        celda4C.appendChild(text4C);
+        celda4D.appendChild(text4D);
+
+//--------------------------------------------------------------------------------------------------------
+       //Instanciamos una fila 
+        fila5 = document.createElement("tr");
+
+        //Enlazamos la tabla con la fila 5
+        tabla.appendChild(fila5);
+        
+        //Instanciamos las celdas
+        celda5A = document.createElement("td");
+        celda5B = document.createElement("td");
+        celda5C = document.createElement("td");
+        celda5D = document.createElement("td");
+
+        //Enlazamos la fila 3 con las celdas
+        fila5.appendChild(celda5A);
+        fila5.appendChild(celda5B);
+        fila5.appendChild(celda5C);
+        fila5.appendChild(celda5D);
+
+        //Instanciamos el texto de cada celda
+        text5A = document.createTextNode("Daniel");
+        text5B = document.createTextNode("Ciudadela");
+        text5C = document.createTextNode("305");
+        text5D= document.createTextNode("perez@gmail.com");
+
+        //Enlazamos los textos con las celdas
+        celda5A.appendChild(text5A);
+        celda5B.appendChild(text5B);
+        celda5C.appendChild(text5C);
+        celda5D.appendChild(text5D);
+
+//--------------------------------------------------------------------------------------------------------
+    </script>
+</body>
+</html>
