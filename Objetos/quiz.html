@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz</title>
+
+    <style>
+        tr, table, td, th {
+            border: 2px black solid;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        //Creamos la Tabla
+        tabla = document.createElement("table");
+
+        //Enlazamos la tabla al body 
+        document.body.appendChild(tabla);
+
+        //Instanciamos una fila 
+        fila1 = document.createElement("tr");
+
+        //Enlazamos la tabla con la fila 1
+        tabla.appendChild(fila1);
+
+        //Instanciamos los encabezados
+        encabezado1 = document.createElement("th");
+        encabezado2 = document.createElement("th");
+        encabezado3 = document.createElement("th");
+        encabezado4 = document.createElement("th");
+
+        //Instanciamos el texto de cada encabezado
+        textEnc1 = document.createTextNode("Nombre");
+        textEnc2 = document.createTextNode("Direccion");
+        textEnc3 = document.createTextNode("Telefono");
+        textEnc4 = document.createTextNode("Correo");
+
+        //Enlazamos los textos con los encabezados
+        encabezado1.appendChild(textEnc1);
+        encabezado2.appendChild(textEnc2);
+        encabezado3.appendChild(textEnc3);
+        encabezado4.appendChild(textEnc4);
+
+        //Enlazamos la fila 1 con los encabezados
+        fila1.appendChild(encabezado1);
+        fila1.appendChild(encabezado2);
+        fila1.appendChild(encabezado3);
+        fila1.appendChild(encabezado4);
+
+        
+//--------------------------------------------------------------------------------------------------------
+        //Instanciamos una fila 
+        fila2 = document.createElement("tr");
+
+        //Instanciamos las columnas
+        columna12 = document.createElement("td");
+        columna22 = document.createElement("td");
+        columna32 = document.createElement("td");
+        columna42 = document.createElement("td");
+
+        //Enlazamos la fila 2 con las columnas
+        fila2.appendChild(columna12);
+        fila2.appendChild(columna22);
+        fila2.appendChild(columna32);
+        fila2.appendChild(columna42);
+
+        //Enlazamos la tabla con la fila 2
+        tabla.appendChild(fila2);
+//--------------------------------------------------------------------------------------------------------
+        //Instanciamos la fila 3 
+        fila3 = document.createElement("tr");
+
+        //Instanciamos las columnas
+        columna13 = document.createElement("td");
+        columna23 = document.createElement("td");
+        columna33 = document.createElement("td");
+        columna43 = document.createElement("td");
+
+        //Enlazamos la fila 3 con las columnas
+        fila3.appendChild(columna13);
+        fila3.appendChild(columna23);
+        fila3.appendChild(columna33);
+        fila3.appendChild(columna43);
+
+        //Enlazamos la tabla con la fila 3
+        tabla.appendChild(fila3);
+//--------------------------------------------------------------------------------------------------------
+        //Instanciamos la fila 3 
+        fila4 = document.createElement("tr");
+
+        //Instanciamos las columnas
+        columna14 = document.createElement("td");
+        columna24 = document.createElement("td");
+        columna34 = document.createElement("td");
+        columna44 = document.createElement("td");
+
+        //Enlazamos la fila 3 con las columnas
+        fila4.appendChild(columna14);
+        fila4.appendChild(columna24);
+        fila4.appendChild(columna34);
+        fila4.appendChild(columna44);
+
+        //Enlazamos la tabla con la fila 4
+        tabla.appendChild(fila4);
+//--------------------------------------------------------------------------------------------------------
+    </script>
+</body>
+</html>

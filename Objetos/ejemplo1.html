@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>BOM - Objetos del navegador</title>
+</head>
+<body>
+    <h2>Funciones de Objeto Windows</h2>
+    <p>
+        <input type="button" value="Abrir 'ventaja Hija'" onclick="abrirVentanaHija()" />
+        <input type="button" value="Cerrar 'ventana Hija'" onclick="cerrarVentanaHija()" />
+    </p>
+    <script>
+        //Obtiene detalles del navegador
+        var detallesnavegador = window.navigator.appName + " " + window.navigator.appVersion;
+        document.write("<h2>Detalles del navegador</h2> <p>"+ detallesnavegador + "</p>");
+
+        var VentanaHija;
+        function abrirVentanaHija(){
+            //Inicializar ventana Hija
+            VentanaHija = window.open("","","width=400, height=200, top=100, left=100");
+            VentanaHija.document.title = "Ventana hija";
+
+            //Creando un titulo en H1
+            titulo  = document.createElement("h1");
+
+            //Creando un node de texto
+            titulo_text = document.createTextNode("Titulo en H1!");
+            document.elementBy
+            //Agregando 'titulo_text' como hijo del elemento h1
+            titulo.appenChild(titulo_text);
+
+            //Agregando 'titulo elemento h1' como hijo del body
+            VentanaHija.document.body.appendChild(titulo);
+        }
+
+        function cerrarVentanaHija(){
+            if (VentanaHija != undefined) {
+                VentanaHija.close();
+                VentanaHija = undefined;
+            } else {
+                alert("No hay ventana hija por cerrar");
+            }
+        }
+    </script>
+</body>
+</html>
